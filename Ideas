@@ -1,8 +1,21 @@
 Speech recognition for interacting with work environment and zoom  
   python speech recognition module  
   pyaudio module 
-  recognize speech using Google Speech Recognition 
+  recognize speech using Google Speech Recognition  
+  Research: 
+  https://github.com/Uberi/speech_recognition/blob/master/examples/microphone_recognition.py  
+  https://www.youtube.com/watch?v=K_WbsFrPUCk 
+  https://stackabuse.com/introduction-to-speech-recognition-with-python/
+  
+  
 Plagiarism checker  
   Analyze paper in text and compare to common results shown through Google 
   Highlight areas in which paper copies from a given online paper 
+  Research: 
+  https://dev.to/kalebu/how-to-detect-plagiarism-in-text-using-python-dpk
+  
 PDF editor 
+Research: 
+https://realpython.com/creating-modifying-pdf/ 
+https://www.pdftron.com/documentation/samples/py/ElementEditTest 
+https://www.datacamp.com/community/tutorials/reading-and-editing-pdfs-and-word-documents-from-python
