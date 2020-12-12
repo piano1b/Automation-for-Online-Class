@@ -1,11 +1,10 @@
 # Imports 
 import pyautogui as pg
-import math 
-from datetime import datetime
+import time
 
 # Set Current Time
-now = math.ceil(datetime.now().time()) 
-
+current_time = time.strftime("%I: %M")
+print(current_time)
 
 # Precaution
 pg.FAILSAFEEXCEPTION = True
@@ -16,8 +15,8 @@ class Zoom_class:
     def __init__(self, link, time):
         self.link = link
         self.time = time
-    def start_class:
-        if self.time == now: # Checks to see if Zoom class time equals actual time
+    def start_class():
+        if self.time == current_time: # Checks to see if Zoom class time equals actual time
             pg.hotkey('winleft')
             pg.typewrite('chrome\n')
             pg.press('enter')
@@ -34,7 +33,6 @@ OAM_330 = Zoom_class('', )
 FIN_320 = Zoom_class('', )
 BUS_365 = Zoom_class('', )
 BUS_385 = Zoom_class('', )
-
 
 
 
